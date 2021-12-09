@@ -1,6 +1,8 @@
 # Node-HallBooking
 API Documentation
+
 Routes:
+
 https://node-hall-booking.herokuapp.com/listCustomers -List all customers who booked the room
 
 https://node-hall-booking.herokuapp.com/listRooms -List all rooms with booking details
