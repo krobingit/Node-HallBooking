@@ -108,6 +108,6 @@ app.get("/listCustomers", (req, res) => {
  const customers = rooms.map((room) => {
   return [...room.bookedDetails,{RoomName:room.name}]
  })
-
+res.send(customers)
 })
 app.listen(PORT,()=>console.log("Server Started"))
